@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">UrHeath</string>
+    <string name="bottom_navigation_home">Home</string>
+    <string name="bottom_navigation_profile">Home</string>
+</resources>
