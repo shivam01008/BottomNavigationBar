@@ -2,7 +2,6 @@ package com.example.urheath
 
 import android.os.Bundle
 import android.util.Log
-import android.widget.Toast
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.annotation.DrawableRes
@@ -15,7 +14,6 @@ import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.input.KeyboardType
@@ -29,13 +27,13 @@ import androidx.lifecycle.MutableLiveData
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
-import androidx.navigation.compose.rememberNavController
-import com.example.network.model.NetworkModel
-import com.example.urheath.Bottom.BottomNav
-import com.example.urheath.Bottom.DetailsScreen
-import com.example.urheath.Bottom.HomeScreen1
-import com.example.urheath.Bottom.ProfileScreen1
-import com.example.urheath.Bottom.SootheBottomNavigation
+import com.example.bttomnavigationbar.BottomNav
+import com.example.bttomnavigationbar.SootheBottomNavigation
+//import com.example.urheath.Bottom.BottomNav
+//import com.example.urheath.Bottom.DetailsScreen
+//import com.example.urheath.Bottom.HomeScreen1
+//import com.example.urheath.Bottom.ProfileScreen1
+//import com.example.urheath.Bottom.SootheBottomNavigation
 import com.example.urheath.Home.AppointmentScreen
 import com.example.urheath.Home.CompletedScreen
 import com.example.urheath.Home.TabLayout
@@ -261,16 +259,16 @@ fun MainScreen(navController: NavHostController) {
         composable("resetPasswordScreen") {
             ResetPasswordScreen(navController)
         }
-        composable("home") {
-            HomeScreen1(navController)
-        }
-        composable("profile") {
-            ProfileScreen1(navController)
-        }
-        // New screen without bottom navigation
-        composable("details") {
-            DetailsScreen(navController) // Pass navController to DetailsScreen
-        }
+//        composable("home") {
+//            HomeScreen1(navController)
+//        }
+//        composable("profile") {
+//            ProfileScreen1(navController)
+//        }
+//        // New screen without bottom navigation
+//        composable("details") {
+//            DetailsScreen(navController) // Pass navController to DetailsScreen
+//        }
 
     }
 
