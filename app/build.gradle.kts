@@ -137,8 +137,6 @@ dependencies {
     implementation ("androidx.lifecycle:lifecycle-viewmodel-compose:2.4.1")
 
     // Jetpack Compose BOM
-
-
     // Material 3
     implementation ("androidx.compose.material3:material3:1.1.0")
 
