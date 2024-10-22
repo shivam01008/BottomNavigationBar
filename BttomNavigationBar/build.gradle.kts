@@ -58,9 +58,6 @@ afterEvaluate {
         publications {
             create<MavenPublication>("release") {
                 from(components["release"])
-                groupId = "com.github.yourusername"  // Replace with your GitHub username
-                artifactId = "yourlibrary"  // Replace with your library name
-                version = "1.0.0"
             }
         }
     }
