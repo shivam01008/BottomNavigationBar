@@ -81,7 +81,7 @@ dependencies {
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.8.4")
     implementation("androidx.activity:activity-compose:1.9.1")
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
-    implementation(project(":network"))
+//    implementation(project(":network"))
     implementation("androidx.databinding:databinding-runtime:8.7.0")
 
     // Testing dependencies
