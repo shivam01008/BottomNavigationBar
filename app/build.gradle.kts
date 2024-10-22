@@ -40,6 +40,11 @@ android {
             )
         }
     }
+    android {
+        testFixtures {
+            enable = true
+        }
+    }
 
     kotlinOptions {
         jvmTarget = "1.8"
